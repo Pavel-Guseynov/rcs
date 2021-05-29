@@ -1,0 +1,7 @@
+default: &default
+  adapter: postgresql
+  database: rcs
+
+test:
+  <<: *default
+  database: rcs_test

@@ -1,0 +1,18 @@
+require:
+  - rubocop-rails
+  - rubocop-minitest
+  - rubocop-performance
+
+AllCops:
+  NewCops: enable
+  DisplayStyleGuide: true
+  ExtraDetails: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: never
+
+Rails/CreateTableWithTimestamps:
+  Enabled: false
